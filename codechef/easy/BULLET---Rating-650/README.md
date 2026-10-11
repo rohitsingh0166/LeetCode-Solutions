@@ -51,23 +51,23 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:29:40.487Z  
+**Submitted:** 2026-10-11T13:21:49.758Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-	int t;
-	cin>>t;
-	while(t--){
-	    int x,y,z;
-	    cin>>x>>y>>z;
-	    cout<<max(0,z-y/x)<<endl;
-	}
-
+    int t;
+    cin >> t;
+    while (t--) {
+        int x, y, z;
+        cin >> x >> y >> z;
+        cout << max(0, z - y / x) << endl;
+    }
+    return 0;
 }
-
 ```
 
 ---
