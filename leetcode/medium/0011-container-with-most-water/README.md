@@ -42,9 +42,9 @@ Output: 1
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms  
-**Memory:** 8.1 MB  
-**Submitted:** 2026-10-02T06:35:13.912Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 62.8 MB (beats 97.70%)  
+**Submitted:** 2026-10-11T13:23:23.435Z  
 
 ```cpp
 class Solution {
