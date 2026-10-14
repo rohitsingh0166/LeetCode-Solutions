@@ -57,28 +57,28 @@ SAME
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-11T16:34:30.986Z  
+**Submitted:** 2026-10-14T16:02:43.067Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
- int t;
- cin>>t;
- while(t--){
-     int x,y;
-     cin>>x>>y;
-     if(x<y){
-         cout<<"BIKE"<<endl;
-     }else if(x==y){
-         cout<<"SAME"<<endl;
-     }else{
-         cout<<"CAR"<<endl;
-     }
- }
+    int t;
+    cin >> t;
+    while (t--) {
+        int x, y;
+        cin >> x >> y;
+        if (x < y) {
+            cout << "BIKE" << endl;
+        } else if (x == y) {
+            cout << "SAME" << endl;
+        } else {
+            cout << "CAR" << endl;
+        }
+    }
 }
-
 ```
 
 ---
