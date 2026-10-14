@@ -76,9 +76,9 @@ Since the record is empty, the total sum is 0.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 2 ms (beats 16.50%)  
-**Memory:** 12.7 MB (beats 47.50%)  
-**Submitted:** 2026-10-14T16:03:13.859Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 12.8 MB (beats 42.37%)  
+**Submitted:** 2026-10-14T16:04:28.167Z  
 
 ```cpp
 class Solution {
