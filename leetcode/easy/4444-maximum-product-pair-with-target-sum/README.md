@@ -69,9 +69,9 @@ Since `-2 > -12`, the pair at indices `(3, 1)` is chosen and the answer is `[3, 
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 31.9 MB (beats 41.67%)  
-**Submitted:** 2026-10-10T15:22:38.077Z  
+**Runtime:** 3 ms (beats 53.72%)  
+**Memory:** 31.7 MB (beats 99.89%)  
+**Submitted:** 2026-10-15T17:13:20.469Z  
 
 ```cpp
 class Solution {
