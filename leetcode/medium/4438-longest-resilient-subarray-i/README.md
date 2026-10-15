@@ -57,9 +57,9 @@ The subarray `[4, 8]` sums to 12. Deleting 4 or 8 leaves a sum of 8 or 4, respec
 ## Solution
 
 **Language:** C++  
-**Runtime:** 173 ms (beats 13.96%)  
-**Memory:** 39.6 MB (beats 99.96%)  
-**Submitted:** 2026-10-15T17:14:03.820Z  
+**Runtime:** 186 ms (beats 11.01%)  
+**Memory:** 39.7 MB (beats 99.81%)  
+**Submitted:** 2026-10-15T17:14:15.576Z  
 
 ```cpp
 class Solution {
