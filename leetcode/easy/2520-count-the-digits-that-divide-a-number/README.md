@@ -48,8 +48,8 @@ Explanation: 1248 is divisible by all of its digits, hence the answer is 4.
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 7.8 MB (beats 40.73%)  
-**Submitted:** 2026-09-15T17:41:09.728Z  
+**Memory:** 7.6 MB (beats 97.26%)  
+**Submitted:** 2026-10-18T16:34:45.499Z  
 
 ```cpp
 class Solution {
