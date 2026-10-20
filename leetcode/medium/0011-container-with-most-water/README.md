@@ -42,9 +42,9 @@ Output: 1
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 62.8 MB (beats 97.70%)  
-**Submitted:** 2026-10-11T13:23:23.435Z  
+**Runtime:** 2 ms (beats 38.50%)  
+**Memory:** 63 MB (beats 46.69%)  
+**Submitted:** 2026-10-20T04:34:43.527Z  
 
 ```cpp
 class Solution {
@@ -57,14 +57,15 @@ public:
             int h=min(height[left],height[right]);
             int width=right-left;
             max_area=max(max_area,h*width);
-            if (height[left] < height[right])
-                left++;
+            if(height[left]<height[right])
+            left++;
             else
-                right--;
+            right--;
         }
         return max_area;
     }
 };
+
 ```
 
 ---
