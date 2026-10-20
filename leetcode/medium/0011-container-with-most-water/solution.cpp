@@ -8,10 +8,10 @@ public:
             int h=min(height[left],height[right]);
             int width=right-left;
             max_area=max(max_area,h*width);
-            if (height[left] < height[right])
-                left++;
+            if(height[left]<height[right])
+            left++;
             else
-                right--;
+            right--;
         }
         return max_area;
     }
