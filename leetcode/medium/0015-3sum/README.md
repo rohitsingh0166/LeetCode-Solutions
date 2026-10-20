@@ -52,9 +52,9 @@ Explanation: The only possible triplet sums up to 0.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 40 ms (beats 89.19%)  
-**Memory:** 29 MB (beats 92.29%)  
-**Submitted:** 2026-10-16T13:48:56.963Z  
+**Runtime:** 40 ms (beats 89.55%)  
+**Memory:** 29 MB (beats 91.58%)  
+**Submitted:** 2026-10-20T04:37:23.822Z  
 
 ```cpp
 class Solution {
