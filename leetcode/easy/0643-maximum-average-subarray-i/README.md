@@ -38,9 +38,9 @@ Output: 5.00000
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 46.25%)  
-**Memory:** 113.6 MB (beats 85.40%)  
-**Submitted:** 2026-10-17T04:46:31.017Z  
+**Runtime:** 0 ms  
+**Memory:** 8.3 MB  
+**Submitted:** 2026-10-21T16:30:33.294Z  
 
 ```cpp
 class Solution {
@@ -48,16 +48,17 @@ public:
     double findMaxAverage(vector<int>& nums, int k) {
         double current_sum=0;
         for(int i=0; i<k;i++){
-            current_sum+=nums[i];
+            current_sum +=i;
+
         }
         double max_sum=current_sum;
         for(int i=k; i<nums.size();i++){
-          current_sum +=nums[i]-nums[i-k];
-          max_sum=max(max_sum,current_sum);
+            current_sum +=nums[i]-nums[i-k];
+            max_sum=max(max_sum,current_sum);
+
         }
         return max_sum/k;
     }
-    
 };
 ```
 
