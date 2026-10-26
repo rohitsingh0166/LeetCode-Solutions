@@ -48,9 +48,9 @@ In this example, the second and third sentences (underlined) have the same numbe
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 13.3 MB (beats 38.59%)  
-**Submitted:** 2026-10-18T16:34:56.491Z  
+**Runtime:** 1 ms (beats 32.89%)  
+**Memory:** 13.5 MB (beats 13.10%)  
+**Submitted:** 2026-10-26T17:58:52.341Z  
 
 ```cpp
 class Solution {
