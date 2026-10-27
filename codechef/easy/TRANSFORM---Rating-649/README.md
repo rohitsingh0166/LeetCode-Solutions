@@ -60,7 +60,7 @@ NORMAL
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-26T09:23:15.427Z  
+**Submitted:** 2026-10-27T18:05:52.860Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
