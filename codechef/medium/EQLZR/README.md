@@ -68,7 +68,7 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:00:57.572Z  
+**Submitted:** 2026-10-28T15:08:44.557Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -81,22 +81,29 @@ int main() {
 	    int n;
 	    cin>>n;
 	    vector<long long>a(n);
-	    for(int i=0; i<n;i++){
+	    for(int i=0; i<n;i++)
 	        cin>>a[i];
+	    
+	    int score=0;
+	    for(int i=0;i<n-1; i++){
+	        if(a[i]==a[i+1])
+	        score++;
 	    }
-	    int ans=0;
-	    for(int i=0;i<n; i++){
-	        int score=0;
-	        for(int j=0; j<n-1; j++){
-	            long long x=a[j]+(j>=i?1:0);
-	           // long long y=a[j+1]+(j+1>=i1:0);
-	           if(x==y) score++;
-	        }
-	        ans=max(ans,score);
-	    }
-	    cout<<ans<<endl;
-	}
+	    int ans=score;
+	        int best=0;
+	        for(int r=0; r<n; r++){
+	           int left=0, right=0;
+	           if(r>0){
+	               left=(a[r-1]==a[r]+1)-(a[r-1]==a[r]);
+	           }
+	           best= max (best,left);
+if(r<n-1){
+    right=(a[r]+1==a[r+1])-(a[r]==a[r+1]);
+}
+ans=max (ans,socre+best+right);}
+cout<<ans<<endl;
 return 0;
+}	           
 }
 
 ```
