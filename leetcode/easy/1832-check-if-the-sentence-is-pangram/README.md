@@ -38,8 +38,8 @@ Output: false
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.7 MB (beats 94.54%)  
-**Submitted:** 2026-10-31T16:51:36.389Z  
+**Memory:** 8.8 MB (beats 55.20%)  
+**Submitted:** 2026-10-31T16:51:49.800Z  
 
 ```cpp
 class Solution {
