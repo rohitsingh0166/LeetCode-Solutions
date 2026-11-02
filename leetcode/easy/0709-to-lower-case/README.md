@@ -43,8 +43,8 @@ Output: "lovely"
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.3 MB (beats 16.13%)  
-**Submitted:** 2026-10-28T17:37:19.891Z  
+**Memory:** 8.1 MB (beats 81.00%)  
+**Submitted:** 2026-11-02T16:13:30.063Z  
 
 ```cpp
 class Solution {
