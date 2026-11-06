@@ -81,9 +81,9 @@ Note: 49 is not 1 (I) less of 50 (L) because the conversion is based on decimal 
 ## Solution
 
 **Language:** C++  
-**Runtime:** 3 ms (beats 65.73%)  
-**Memory:** 12.1 MB (beats 58.34%)  
-**Submitted:** 2026-09-26T09:40:45.580Z  
+**Runtime:** 8 ms (beats 25.31%)  
+**Memory:** 12.1 MB (beats 42.07%)  
+**Submitted:** 2026-11-05T15:58:53.663Z  
 
 ```cpp
 class Solution {
