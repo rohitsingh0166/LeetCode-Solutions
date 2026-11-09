@@ -49,9 +49,9 @@ There are 0 employees who met the target.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms  
-**Memory:** 7.9 MB  
-**Submitted:** 2026-11-09T14:15:46.011Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 24.5 MB (beats 74.68%)  
+**Submitted:** 2026-11-09T14:15:52.191Z  
 
 ```cpp
 class Solution {
