@@ -8,6 +8,8 @@ Given a string `s`, find the length of the  **longest**   **substring**  without
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -46,9 +48,9 @@ Notice that the answer must be a substring, "pwke" is a subsequence and not a su
 ## Solution
 
 **Language:** C++  
-**Runtime:** 331 ms (beats 9.97%)  
-**Memory:** 81.4 MB (beats 24.19%)  
-**Submitted:** 2026-10-22T03:39:51.623Z  
+**Runtime:** 336 ms (beats 13.60%)  
+**Memory:** 81.3 MB (beats 21.71%)  
+**Submitted:** 2026-11-10T16:19:08.107Z  
 
 ```cpp
 class Solution {
