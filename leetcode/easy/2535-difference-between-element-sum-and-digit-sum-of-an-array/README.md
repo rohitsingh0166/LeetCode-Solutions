@@ -15,6 +15,8 @@ Return  *the  **absolute**  difference between the  **element sum**  and  **digi
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -49,9 +51,9 @@ The absolute difference between the element sum and digit sum is |10 - 10| = 0.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 19.3 MB (beats 48.98%)  
-**Submitted:** 2026-11-09T14:17:40.321Z  
+**Runtime:** 1 ms (beats 21.77%)  
+**Memory:** 19.2 MB (beats 94.60%)  
+**Submitted:** 2026-11-12T15:28:32.325Z  
 
 ```cpp
 
