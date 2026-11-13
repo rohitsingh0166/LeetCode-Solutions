@@ -1,0 +1,24 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+
+    while(t--) {
+        int a, b, x, y;
+        cin >> a >> b >> x >> y;
+
+        if(b > a && x >= b - a)
+            cout << "YES" << endl;
+        else if(b < a && y >= a - b)
+            cout << "YES" << endl;
+        else if(a == b)
+            cout << "YES" << endl;
+        else
+            cout << "NO" << endl;
+    }
+
+    return 0;
+}
