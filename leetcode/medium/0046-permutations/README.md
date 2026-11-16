@@ -8,6 +8,8 @@ Given an array `nums` of distinct integers, return all the possible permutations
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -43,9 +45,9 @@ Output: [[1]]
 ## Solution
 
 **Language:** C++  
-**Runtime:** 1 ms (beats 46.79%)  
-**Memory:** 10.5 MB (beats 65.95%)  
-**Submitted:** 2026-11-03T18:11:16.610Z  
+**Runtime:** 2 ms (beats 35.22%)  
+**Memory:** 10.6 MB (beats 62.02%)  
+**Submitted:** 2026-11-16T17:56:08.789Z  
 
 ```cpp
 class Solution {
