@@ -48,9 +48,9 @@ Explanation: Numbers in the range [1, 9] that are divisible by 3, 5, or 7 are 3,
 ## Solution
 
 **Language:** C++  
-**Runtime:** 2 ms (beats 24.37%)  
-**Memory:** 8.4 MB (beats 89.24%)  
-**Submitted:** 2026-11-13T13:01:27.382Z  
+**Runtime:** 0 ms (beats 100.00%)  
+**Memory:** 8.6 MB (beats 32.13%)  
+**Submitted:** 2026-11-17T17:16:48.933Z  
 
 ```cpp
 
