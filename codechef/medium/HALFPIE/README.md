@@ -63,14 +63,31 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:24:32.618Z  
+**Submitted:** 2026-11-18T15:28:51.302Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        cin>>n;
+        vector<int>a(n);
+        int total=0;
+        for(int i=0;i<n; i++){
+            cin>>a[i];
+            total +=a[i];
+        }
+        int minsum=a[0]+a[1];
+        for(int i=1;i<n-1;i++){
+            minsum=min(minsum,a[i]+a[i+1]);
+        }
+        cout<<total-minsum/2<<endl;
+    }
+    return 0;
 }
 
 ```
