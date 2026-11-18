@@ -10,6 +10,8 @@ Given a string `sentence` containing only lowercase English letters, return `tru
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -38,8 +40,8 @@ Output: false
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 8.8 MB (beats 55.20%)  
-**Submitted:** 2026-10-31T16:51:49.800Z  
+**Memory:** 8.8 MB (beats 75.20%)  
+**Submitted:** 2026-11-18T18:12:47.913Z  
 
 ```cpp
 class Solution {
