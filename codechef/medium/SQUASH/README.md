@@ -68,36 +68,36 @@ NO
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:33:44.172Z  
+**Submitted:** 2026-11-18T15:34:54.722Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
-	int t;
-	cin>>t;
-	while(t--){
-	    int n,k;
-	    string s;
-	    cin>>n>>k;
-	    cin>>s;
-	    int groups=1;
-	    for(int i=1;i<n;i++){
-	        if(s[i]!=s[i-1]){
-	            groups++;
-	        }
-	    }
-	    if(k>=groups){
-	        cout<<"YES"<<endl;
-	    }else{
-	        cout<<"NO"<<endl;
-	    }
-	    return 0;
-	}
+    int t;
+    cin >> t;
+    while (t--) {
+        int n, k;
+        string s;
+        cin >> n >> k;
+        cin >> s;
+        int groups = 1;
+        for (int i = 1; i < n; i++) {
+            if (s[i] != s[i - 1]) {
+                groups++;
+            }
+        }
+        if (k >= groups) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
+        }
 
+    }
+    return 0;
 }
-
 ```
 
 ---
