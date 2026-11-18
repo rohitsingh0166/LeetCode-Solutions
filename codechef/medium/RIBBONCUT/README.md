@@ -75,7 +75,7 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-18T15:22:37.298Z  
+**Submitted:** 2026-11-18T15:23:45.618Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -84,8 +84,12 @@ using namespace std;
 int main() {
 	int n;
 	cin>>n;
-	
-
+	if(n%3==0){
+	    cout<<"YES"<<endl;
+	}else{
+	    cout<<"NO"<<endl;
+	}
+return 0;
 }
 
 ```
