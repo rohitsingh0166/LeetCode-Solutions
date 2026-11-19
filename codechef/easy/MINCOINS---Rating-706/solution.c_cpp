@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int N, A, B;
+        cin >> N >> A >> B;
+
+        int even = N / 2;
+        int odd = N - even;
+
+        int total = even * A + odd * B;
+
+        cout << total << endl;
+    }
+
+    return 0;
+}
