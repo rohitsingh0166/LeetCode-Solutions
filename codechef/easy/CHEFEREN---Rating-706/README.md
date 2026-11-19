@@ -54,26 +54,28 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-19T13:31:36.547Z  
+**Submitted:** 2026-11-19T13:32:11.885Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
-        int n, a, b;
-        cin >> n >> a >> b;
-        if (n <= 1) {
-            cout << 1 * a + 0 * b << endl;
-        } else {
-            cout << n / 2 * a + n / 2 * b << endl;
-        }
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N, A, B;
+        cin >> N >> A >> B;
+
+        int even = N / 2;
+        int odd = N - even;
+
+        int total = even * A + odd * B;
+
+        cout << total << endl;
     }
+
     return 0;
 }
 ```
