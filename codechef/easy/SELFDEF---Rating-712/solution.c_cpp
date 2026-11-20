@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,n;
+	    cin>>x>>n;
+	    if(x*100>n){
+	        cout<<0<<endl;
+	    }else{
+	         int remaining = n - x * 100;
+            cout << (remaining + 99) / 100 << endl;
+	    }
+	}
+	return 0;
+}
