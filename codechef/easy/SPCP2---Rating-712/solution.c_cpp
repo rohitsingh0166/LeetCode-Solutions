@@ -10,7 +10,8 @@ int main() {
 	    if(x*100>n){
 	        cout<<0<<endl;
 	    }else{
-	        cout<<(n-x*100)/100<<endl;
+	         int remaining = n - x * 100;
+            cout << (remaining + 99) / 100 << endl;
 	    }
 	}
 	return 0;
