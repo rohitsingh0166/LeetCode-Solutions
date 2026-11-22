@@ -10,6 +10,8 @@ A string is  **palindromic**  if it reads the same forward and backward.
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -49,9 +51,9 @@ Explanation: There are no palindromic strings, so the empty string is returned.
 ## Solution
 
 **Language:** C++  
-**Runtime:** 13 ms (beats 13.09%)  
-**Memory:** 29.9 MB (beats 15.54%)  
-**Submitted:** 2026-11-08T07:48:26.373Z  
+**Runtime:** 11 ms (beats 23.36%)  
+**Memory:** 29.7 MB (beats 21.00%)  
+**Submitted:** 2026-11-22T17:36:19.228Z  
 
 ```cpp
 
