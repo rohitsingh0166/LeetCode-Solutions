@@ -4,91 +4,76 @@
 
 ## Problem
 
-### Self Defence Training
+### Cup Finals
 
-After the phenomenal success of the 36th Chamber of Shaolin, San Te has decided to start 37th Chamber of Shaolin. The aim this time is to equip women with shaolin self-defence techniques.
+It is the World Cup Finals. Chef only finds a match interesting if the skill difference of the competing teams is  *less than or equal to*  $D$.
 
-The only condition for a woman to be eligible for the special training is that she must be between $10$ and $60$ years of age, inclusive of both $10$ and $60$.
-
-Given the ages of $N$ women in his village, please help San Te find out how many of them are eligible for the special training.
+Given that the skills of the teams competing in the final are $X$ and $Y$ respectively, determine whether Chef will find the game interesting or not.
 
 ### Input Format
-- The first line of input contains a single integer $T$, denoting the number of test cases. The description of $T$ test cases follows.
-- The first line of each test case contains a single integer $N$, the number of women.
-- The second line of each test case contains $N$ space-separated integers $A_1, A_2,..., A_N$, the ages of the women.
+- The first line of input will contain a single integer $T$, denoting the number of testcases. The description of $T$ testcases follows.
+- Each testcase consists of a single line of input containing three space-separated integers $X$, $Y$, and $D$ — the skill levels of the teams and the maximum skill difference.
 ### Output Format
 
-For each test case, output in a single line the number of women eligible for self-defence training.
+For each testcase, output "YES" if Chef will find the game interesting, else output "NO" (without the quotes). The checker is case-insensitive, so "YeS" and "nO" etc. are also acceptable.
 
 ### Constraints
-- $1 \leq T \leq 20$
-- $1 \leq N \leq 100$
-- $1 \leq A_i \leq 100$
+- $1 \leq T \leq 2000$
+- $1 \leq X, Y \leq 100$
+- $0 \leq D \leq 100$
 ### Sample 1:
 Input
 Output
 
 ```
 3
-3
-15 23 65
-3
-15 62 16
-2
-35 9
+5 3 4
+5 3 1
+5 5 0
+
 ```
 
 ```
-2
-2
-1
+YES
+NO
+YES
+
 ```
 
 ### Explanation:
 
- **Test Case $1$** : Out of the women, only the $1^{st}$ and $2^{nd}$ women are eligible for the training because their ages lie in the interval $[10,60]$. Hence the answer is 2.
+ **Test case $1$:**  The skill difference between the teams is $2$, which is less than the maximum allowed difference of $4$.
 
- **Test Case $2$** : Only the $1^{st}$ and $3^{rd}$ women are eligible for the training because their ages lie in the interval $[10,60]$. Hence the answer is again 2.
-
- **Test Case $3$** : Only the $1^{st}$ woman with age $35$ is eligible for the training. Hence the answer is $1$.
+ **Test case $2$:**  The skill difference between the teams is $2$, which is more than the maximum allowed difference of $1$.
 
 ## Solution
 
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T13:00:48.815Z  
+**Submitted:** 2026-11-23T13:03:35.731Z  
 
 ```c_cpp
-
 #include <bits/stdc++.h>
+
 using namespace std;
 
 int main() {
     int t;
-    cin >> t;
-
-    while(t--) {
-        int n;
-        cin >> n;
-
-        int count = 0;
-
-        for(int i = 0; i < n; i++) {
-            int a;
-            cin >> a;
-
-            if(a >= 10 && a <= 60) {
-                count++;
-            }
+    cin>>t;
+    while (t--) {
+        int x, y;
+        cin >> x >> y;
+        int d;
+        cin >> d;
+        if ((x - y) <= d) {
+            cout << "YES" << endl;
+        } else {
+            cout << "NO" << endl;
         }
-
-        cout << count << endl;
     }
-
     return 0;
 }
-
 ```
 
 ---
