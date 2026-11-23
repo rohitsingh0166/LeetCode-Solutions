@@ -10,7 +10,7 @@ int main() {
         cin >> x >> y;
         int d;
         cin >> d;
-        if ((x - y) <= d) {
+        if (abs((x - y) <= d)){
             cout << "YES" << endl;
         } else {
             cout << "NO" << endl;
