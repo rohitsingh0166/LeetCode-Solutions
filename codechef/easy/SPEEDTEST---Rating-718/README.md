@@ -55,29 +55,31 @@ Alice
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T13:19:28.896Z  
+**Submitted:** 2026-11-23T13:20:17.549Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
     int t;
     cin >> t;
+
     while (t--) {
         int a, x, b, y;
         cin >> a >> x >> b >> y;
-        float Bob = a / x;
-        float Alice = b / y;
-        if (Bob < Alice) {
-            cout << "Bob" << endl;
-        } else if (Bob == Alice) {
-            cout << "Equal" << endl;
-        } else {
-            cout << "Alice" << endl;
+
+        if (a * y > b * x) {
+            cout << "ALICE" << endl;
+        } 
+        else if (a * y < b * x) {
+            cout << "BOB" << endl;
+        } 
+        else {
+            cout << "EQUAL" << endl;
         }
     }
+
     return 0;
 }
 ```
