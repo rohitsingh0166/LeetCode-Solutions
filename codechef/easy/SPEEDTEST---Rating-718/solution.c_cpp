@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int t;
+    cin >> t;
+    while (t--) {
+        int a, x, b, y;
+        cin >> a >> x >> b >> y;
+        float Bob = a / x;
+        float Alice = b / y;
+        if (Bob < Alice) {
+            cout << "Bob" << endl;
+        } else if (Bob == Alice) {
+            cout << "Equal" << endl;
+        } else {
+            cout << "Alice" << endl;
+        }
+    }
+    return 0;
+}
