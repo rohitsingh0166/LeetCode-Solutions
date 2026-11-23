@@ -51,7 +51,7 @@ YES
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T13:03:35.731Z  
+**Submitted:** 2026-11-23T13:06:14.116Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -66,7 +66,7 @@ int main() {
         cin >> x >> y;
         int d;
         cin >> d;
-        if ((x - y) <= d) {
+        if (abs((x - y) <= d)){
             cout << "YES" << endl;
         } else {
             cout << "NO" << endl;
