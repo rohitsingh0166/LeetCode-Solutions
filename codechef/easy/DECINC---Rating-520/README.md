@@ -39,7 +39,7 @@ Since 5 is not divisible by 4 hence, its value is decreased by 1.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-23T13:24:25.484Z  
+**Submitted:** 2026-11-24T18:28:43.193Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
