@@ -12,6 +12,8 @@ The test cases are generated such that the number of unique combinations that su
 
  
 
+Original
+C++
  **Example 1:** 
 
 ```
@@ -53,8 +55,8 @@ Output: []
 
 **Language:** C++  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 14.2 MB (beats 45.27%)  
-**Submitted:** 2026-09-17T09:57:50.937Z  
+**Memory:** 14.3 MB (beats 33.64%)  
+**Submitted:** 2026-11-25T17:02:16.169Z  
 
 ```cpp
 class Solution {
