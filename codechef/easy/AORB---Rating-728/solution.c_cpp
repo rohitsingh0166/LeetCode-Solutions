@@ -1,0 +1,23 @@
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int T;
+    cin >> T;
+
+    while (T--) {
+        int X, Y;
+        cin >> X >> Y;
+
+        // Order A -> B
+        int scoreAB = (500 - 2 * X) + (1000 - 4 * (X + Y));
+
+        // Order B -> A
+        int scoreBA = (1000 - 4 * Y) + (500 - 2 * (X + Y));
+
+        cout << max(scoreAB, scoreBA) << endl;
+    }
+
+    return 0;
+}
